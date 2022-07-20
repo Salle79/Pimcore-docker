@@ -52,6 +52,14 @@
 # Embedded web-server pid file
 /.web-server-pid
 
+### SymphonyCMS template
+manifest/cache/
+manifest/logs/
+manifest/tmp/
+symphony/
+workspace/uploads/
+install-log.txt
+
 ### Pimcore template
 # gitignore template for Pimcore CMS
 
@@ -107,4 +115,3 @@
 # keep .dummy files
 !.dummy
 
-/my-project/translations/.gitkeep
