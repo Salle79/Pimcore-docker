@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/my-project/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/my-project/var" />
+      <excludeFolder url="file://$MODULE_DIR$/my-project/dump" />
+      <excludeFolder url="file://$MODULE_DIR$/my-project/dev" />
+      <excludeFolder url="file://$MODULE_DIR$/my-project/.docker" />
+      <excludeFolder url="file://$MODULE_DIR$/my-project/.github" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/var" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor" />
+      <excludeFolder url="file://$MODULE_DIR$/translations" />
+      <excludeFolder url="file://$MODULE_DIR$/dump" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

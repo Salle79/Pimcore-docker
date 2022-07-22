@@ -1,117 +1,17 @@
-ls### Symfony template
-# Cache and logs (Symfony2)
-/app/cache/*
-/app/logs/*
-!app/cache/.gitkeep
-!app/logs/.gitkeep
-
-# Email spool folder
-/app/spool/*
-
-# Cache, session files and logs (Symfony3)
-/var/cache/*
-/var/logs/*
-/var/sessions/*
-!var/cache/.gitkeep
-!var/logs/.gitkeep
-!var/sessions/.gitkeep
-
-# Logs (Symfony4)
-/var/log/*
-!var/log/.gitkeep
-
-# Parameters
-/app/config/parameters.yml
-/app/config/parameters.ini
-
-# Managed by Composer
-/app/bootstrap.php.cache
-/var/bootstrap.php.cache
-/bin/*
-!bin/console
-!bin/symfony_requirements
-/vendor/
-
-# Assets and user uploads
-/web/bundles/
-/web/uploads/
-
-# PHPUnit
-/app/phpunit.xml
-/phpunit.xml
-
-# Build data
-/build/
-
-# Composer PHAR
-/composer.phar
-
-# Backup entities generated with doctrine:generate:entities command
-**/Entity/*~
-
-# Embedded web-server pid file
-/.web-server-pid
-
-### SymphonyCMS template
-manifest/cache/
-manifest/logs/
-manifest/tmp/
-symphony/
-workspace/uploads/
-install-log.txt
-
-### Pimcore template
-# gitignore template for Pimcore CMS
-
-# pimcore source files
-/pimcore
-
-# asset files
-/website/var/assets/*
-
-# backups
-/website/var/backup/*
-
-# file cache
-/website/var/cache/*
-
-# generated PHP classes, keep definition files (.psf)
-/website/var/classes/Object*
-!/website/var/classes/objectbricks
-
-# various configuration files
-/website/var/config/system.xml
-/website/var/config/cache.xml
-/website/var/config/robots.txt
-/website/var/config/Geo*
-/website/var/config/object/*
-/website/var/config/portal/*
-/website/var/config/sqlreport/*
-
-# sent e-mail log files
-/website/var/email/*
-
-# log files
-/website/var/log/*.log
-
-# serialized recyclebin files
-/website/var/recyclebin/*
-
-# search plugin
-/website/var/search/*
-
-# various temp files
-/website/var/system/*
-/website/var/tmp/*
-
-# serialized version files
-/website/var/versions/asset/*
-/website/var/versions/document/*
-/website/var/versions/object/*
-
-# user profile images
-/website/var/user-image/*
-
-# keep .dummy files
-!.dummy
-
+bin/
+composer.json
+composer.lock
+config/
+dev/
+docker-compose.yaml
+dump/
+gpl-3.0.txt
+manifest.yml
+phpunit.xml.dist
+public/
+run.sh
+src/
+templates/
+tmp/
+translations/
+var/

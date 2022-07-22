@@ -3,10 +3,11 @@
 
 # symfony default
 /.web-server-pid
+/config/pimcore/parameters.yml
 /build/
 /phpunit.xml
 /public/bundles/
-/public/
+
 # local config
 /.env.local
 /.env.local.php
@@ -14,7 +15,6 @@
 !/config/local
 /config/local/*
 !config/local/.gitkeep
-/docker-compose.override.yml
 
 /var/*
 !/var/.gitkeep
@@ -28,8 +28,10 @@
 
 # project specific recommendations
 /var/config/tag-manager.php
+/var/config/reports.php
 
-#/public/var/
+
+/public/var/
 /public/sitemap*.xml
 
 # PHP-CS-Fixer
@@ -43,9 +45,6 @@
 .idea
 # NetBeans
 nbproject
-
-# Core / bundle development
-/dev/
 
 # temp
 .temp
