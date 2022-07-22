@@ -46,6 +46,6 @@
 .idea
 # NetBeans
 nbproject
-*.md
+#*.md
 # temp
 .temp
