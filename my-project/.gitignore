@@ -40,11 +40,12 @@
 
 # composer
 /vendor/
-
+/var/
+/bin/
 # PhpStorm / IDEA
 .idea
 # NetBeans
 nbproject
-
+*.md
 # temp
 .temp
