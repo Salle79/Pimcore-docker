@@ -1,5 +1,5 @@
 parameters:
-    secret: TKOOND1ukjAFIu7r2n5qQaDywSNmmZTumjXVAPfdsy8=
+    secret: Fj0f2EaiIFhAwODC8tIYCC7zUWBvbqs4RhJqfq3QG/4=
 
     # customize the full path to external executables
     # normally they are auto-detected by `which program` or auto-discovered in the configured path in
